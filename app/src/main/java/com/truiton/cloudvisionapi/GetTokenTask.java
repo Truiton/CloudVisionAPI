@@ -3,7 +3,6 @@ package com.truiton.cloudvisionapi;
 import android.accounts.Account;
 import android.app.Activity;
 import android.os.AsyncTask;
-import android.widget.Toast;
 
 import com.google.android.gms.auth.GoogleAuthException;
 import com.google.android.gms.auth.GoogleAuthUtil;

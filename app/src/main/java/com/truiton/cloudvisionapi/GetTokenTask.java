@@ -35,8 +35,7 @@ public class GetTokenTask extends AsyncTask<Void, Void, Void> {
                 ((MainActivity)mActivity).onTokenReceived(token);
             }
         } catch (IOException e) {
-            Toast.makeText(mActivity, "Some error occurred", Toast.LENGTH_SHORT)
-                    .show();
+            e.printStackTrace();
         }
         return null;
     }
